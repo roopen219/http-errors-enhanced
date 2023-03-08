@@ -4,7 +4,7 @@ export interface GenericObject {
 
 export type NodeError = NodeJS.ErrnoException
 
-const processRoot = process.cwd()
+const processRoot = '/'
 
 export function pascalCase(original: string): string {
   const rest = original
